@@ -7,5 +7,5 @@ void main(List<String> arguments) {
     String formattedDateTime = "${now.day}-${now.month}-${now.year} ${now.hour}:${now.minute}:${now.second}";
     // Imprimir el mensaje con la fecha y hora
     var dart_application_1;
-    print('Hola Mundo ! ${dart_application_1.calculate()}! ($formattedDateTime)');
+    print('Hola! ${dart_application_1.calculate()}! ($formattedDateTime)');
 }
